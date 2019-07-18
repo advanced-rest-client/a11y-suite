@@ -31,19 +31,20 @@
     "test:watch": "karma start --auto-watch=true --single-run=false"
   },
   "dependencies": {
-    "@commitlint/cli": "^7.0.0",
+    "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^7.0.0",
     "@open-wc/eslint-config": "^0.4.1",
     "@open-wc/prettier-config": "^0.1.0",
-    "accessibility-developer-tools": "^2.12.0",
+    "axe-core": "^3.3.0",
     "husky": "^1.0.0",
     "lint-staged": "^8.0.0",
     "lit-element": "^2.0.1",
-    "lit-html": "^1.0.0"
+    "lit-html": "^1.1.1"
   },
   "devDependencies": {
     "@open-wc/testing": "^0.11.1",
-    "@open-wc/testing-karma": "^2.0.6"
+    "@open-wc/testing-karma": "^2.0.16",
+    "eslint-config-google": "^0.13.0"
   },
   "lint-staged": {
     "*.js": [

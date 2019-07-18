@@ -4,11 +4,11 @@ const merge = require('webpack-merge');
 
 module.exports = function createEsmConfig(config) {
   config.set(
-    merge(createDefaultConfig(config), {
-      files: [
-        'node_modules/accessibility-developer-tools/dist/js/axs_testing.js'
-      ]
-    }),
+      merge(createDefaultConfig(config), {
+        files: [
+          'node_modules/axe-core/axe.min.js'
+        ]
+      }),
   );
   return config;
 };
